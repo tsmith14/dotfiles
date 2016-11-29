@@ -1,0 +1,4 @@
+# Example Server
+alias PROJECT_NAME="cd /path/to/local_dir"
+alias PROJECT_NAME_root="ssh -i ~/path/to/pem USER@IP"
+alias PROJECT_NAME_ip="echo IP"

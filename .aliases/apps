@@ -1,0 +1,3 @@
+alias bower='noglob bower'
+
+alias marked='open -a Marked\ 2'
