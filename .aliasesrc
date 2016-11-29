@@ -1,0 +1,9 @@
+# Aliases
+# Tyler Smith
+# April 30th, 2015
+
+# This file is imported into both bash and zsh
+
+source '.aliases/apps'
+source '.aliases/servers'
+source '.aliases/shortcuts'
