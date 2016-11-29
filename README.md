@@ -21,5 +21,5 @@ When setting up a new Mac, you may want to set some macOS defaults:
 
 
 ### Inspired by:
-(Mathias Bynens)[https://github.com/mathiasbynens/dotfiles]
-(Sam Soffes)[https://github.com/soffes/dotfiles]
+[Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
+[Sam Soffes](https://github.com/soffes/dotfiles)
