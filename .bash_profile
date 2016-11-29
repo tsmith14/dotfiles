@@ -2,4 +2,4 @@
 
 [[ -s "$HOME/.aliasesrc" ]] && source "$HOME/.aliasesrc" # Load aliases
 [[ -s "$HOME/.functions" ]] && source "$HOME/.functions" # Load aliases
-[[ -s "$HOME/.variables" ]] && source "$HOME/.variables" # Load aliases
+[[ -s "$HOME/.variablesrc" ]] && source "$HOME/.variablesrc" # Load aliases

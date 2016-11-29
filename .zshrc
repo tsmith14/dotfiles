@@ -1,7 +1,7 @@
 # Load Aliases
 [[ -f ~/.aliasesrc ]] && source ~/.aliasesrc
 [[ -f ~/.functions ]] && source ~/.functions
-[[ -f ~/.variables ]] && source ~/.variables
+[[ -f ~/.variablesrc ]] && source ~/.variablesrc
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Tyler/.oh-my-zsh

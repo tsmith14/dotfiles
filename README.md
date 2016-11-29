@@ -10,8 +10,8 @@
 `git clone git@github.com:tsmith14/dotfiles.git`
 
 #### Setup MacOS Defaults
-When setting up a new Mac, you may want to set some macOS defaults:
-** Note: Review this file before running it to make sure you understand the options**
+When setting up a new Mac, you may want to set some macOS defaults
+**Note: Review this file before running it to make sure you understand the options**
 
 `./macos`
 
@@ -21,5 +21,5 @@ When setting up a new Mac, you may want to set some macOS defaults:
 
 
 ### Inspired by:
-[Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
-[Sam Soffes](https://github.com/soffes/dotfiles)
+* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
+* [Sam Soffes](https://github.com/soffes/dotfiles)
