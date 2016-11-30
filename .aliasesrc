@@ -4,6 +4,6 @@
 
 # This file is imported into both bash and zsh
 
-source '.aliases/apps'
-source '.aliases/servers'
-source '.aliases/shortcuts'
+[[ -f ~/.aliases/apps ]] && source ~/.aliases/apps
+[[ -f ~/.aliases/servers ]] && source ~/.aliases/servers
+[[ -f ~/.aliases/shortcuts ]] && source ~/.aliases/shortcuts
