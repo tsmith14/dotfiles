@@ -29,13 +29,3 @@ function json() {
 	fi;
 }
 
-
-# `atom` with no arguments opens the current directory in Atom Editor, otherwise
-# opens the given location
-function atom() {
-	if [ $# -eq 0 ]; then
-		atom .;
-	else
-		atom "$@";
-	fi;
-}
