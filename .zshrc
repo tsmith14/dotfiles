@@ -95,3 +95,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.rvm/bin:$HOME/.node/bin"
+
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
