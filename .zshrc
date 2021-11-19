@@ -4,7 +4,7 @@
 [[ -f ~/.variablesrc ]] && source ~/.variablesrc
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Tyler/.oh-my-zsh
+export ZSH=/Users/tyler/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -52,7 +52,7 @@ export ZSH=/Users/Tyler/.oh-my-zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-extras rails ruby brew osx)
+plugins=(git git-extras rails ruby brew macos)
 
 # User configuration
 
@@ -96,7 +96,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.rvm/bin:$HOME/.node/bin"
 
-export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
+# export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
@@ -104,4 +104,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 ssh-add -K ~/.ssh/id_rsa &> /dev/null
-
