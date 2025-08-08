@@ -105,6 +105,12 @@ export NVM_DIR="$HOME/.nvm"
 
 ssh-add -K ~/.ssh/id_rsa &> /dev/null
 
+# All local binaries - Cursor-agent
+export PATH="$HOME/.local/bin:$PATH"
+
+# Load Cargo - Rust package manager
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Call `nvm use` whenever you enter a directory with an `.nvmrc` file
 # Source: https://github.com/nvm-sh/nvm#zsh
 autoload -U add-zsh-hook
