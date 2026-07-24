@@ -111,6 +111,9 @@ export PATH="$HOME/.local/bin:$PATH"
 # Load Cargo - Rust package manager
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Fly.io CLI
+export PATH="$HOME/.fly/bin:$PATH"
+
 # Call `nvm use` whenever you enter a directory with an `.nvmrc` file
 # Source: https://github.com/nvm-sh/nvm#zsh
 autoload -U add-zsh-hook
