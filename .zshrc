@@ -140,3 +140,7 @@ load-nvmrc() {
 
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# >>> localcan >>>
+export PATH="/Users/tyler/.localcan/bin:$PATH"
+# <<< localcan <<<
